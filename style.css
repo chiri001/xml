@@ -1,0 +1,93 @@
+/* style.css file
+  Written by: Rennie Kipchirchir
+  Date: 09/30/2023
+
+  The file contains styling for an index.xml file.
+*/
+
+/*style for food items in the xml file */
+FoodItems {
+    background-color: #e9f5e7; /*set background color of page*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+    display: flex; /*horizontal layout*/
+    flex: 1;
+    flex-wrap: wrap; /*items wrap to next row when needed*/
+    justify-content: center; /*align child elements center*/
+    margin: 4%; /*put margin between items*/
+}
+
+/*Style for the header of the file */
+Heading {
+    text-align: center; /*align header center of page*/
+    width: 100%;
+    font-size: 40px;
+    color: rgb(185, 102, 7);
+    padding: 4%; /*add some spacing around header*/
+}
+
+/*style for the food included in the file */
+Food {
+    display: flex; /*align items horizontal*/
+    flex-wrap: wrap; /*wrap excess items to next row */
+    flex-direction: column; /*make items vertically aligned*/
+    padding: 2%;
+    border: 1px solid #ccc; /*adding a border*/
+    border-radius: 10px; /*smooth edges*/
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4); /*adding shadow around */
+    background-color: #dde5db;
+    margin-bottom: 3%; /*space the bottom of box*/
+    width: 60%; /*box to cover only 60% of page */
+}
+
+/*style for the name of the food*/
+Name {
+    font-weight: bold; /*make it bold*/
+    font-size: 25px;
+    color: rgb(5, 183, 5); /*set color of text*/
+    padding: 2%;
+    width: 100%;
+    text-align: center; /*align text center of page*/
+}
+
+/*Style for the description of the food*/
+Description {
+    font-size: 20px;
+    color: rgb(3, 83, 3);
+    padding: 2%;
+}
+
+/*Style for the size of the food*/
+Size {
+    font-size: 20px;
+    color: rgb(185, 102, 7);
+    padding: 2%;
+}
+
+/*Style for the price of the food*/
+Price {
+    font-size: 21px;
+    color: rgb(5, 183, 5);
+    padding: 2%;
+}
+
+/*Style for the price of the food*/
+Price:before {
+    content: '$'; /*add a dollar sign before the price */
+}
+
+/*Style for the categories of the food*/
+Categories {
+    padding: 2%;
+}
+
+/*Style for the categories of the food*/
+Category {
+    font-size: 20px;
+    color: rgb(3, 83, 3);
+}
+
+/*Style for the categories of the food*/
+Category:after {
+    content: ' '; /*add some space after the item*/
+}

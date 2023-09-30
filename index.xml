@@ -1,95 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="style/css" href="style.css"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
 <FoodItems>
+    <Heading> Bennie's Food Store</Heading>
     <Food>
-        <Name> Rice </Name>
+        <Name>Rice</Name>
         <Description>White grain rich in carbs</Description>
-        <Size> 2 Kg</Size>
-        <Price>8</Price>
-        <Category>Carbohydartes, Grains, Vegan, Gluten-free</Category>
+        <Size>2 Kg</Size>
+        <Price>8.00</Price>
+        <Categories>
+            <Category>Carbohydartes</Category>
+            <Category>Grains</Category>
+            <Category>Vegan</Category>
+            <Category>Gluten-free</Category>
+        </Categories>
     </Food>
     <Food>
-        <Name> Potatoes </Name>
+        <Name>Potatoes</Name>
         <Description>Underground tuber rich in starch</Description>
-        <Size> 5 Kg</Size>
-        <Price>15</Price>
-        <Category>carbohydartes, Vegan, Gluten-free</Category>
+        <Size>5 Kg</Size>
+        <Price>15.49</Price>
+        <Categories>
+            <Category>Carbohydartes</Category>
+            <Category>Vegan</Category>
+            <Category>Gluten-free</Category>
+        </Categories>
     </Food>
     <Food>
-        <Name> Spaghetti </Name>
+        <Name>Spaghetti</Name>
         <Description>Long, thin pasta, commonly served with sauces.</Description>
         <Size> 400g </Size>
-        <Price>4</Price>
-        <Category>Carbohydartes, Vegan </Category>
+        <Price>3.99</Price>
+                <Categories>
+            <Category>Carbohydartes</Category>
+            <Category>Vegan</Category>
+        </Categories>
     </Food>
     <Food>
-        <Name> Bread </Name>
+        <Name>Bread</Name>
         <Description>White bread baked and sliced</Description>
         <Size>400g </Size>
         <Price>4.99</Price>
-        <Category>Carbohydartes, Vegan</Category>
+        <Categories>
+            <Category>Carbohydartes</Category>
+            <Category>Vegan</Category>
+        </Categories>
     </Food>
     <Food>
-        <Name> Beef </Name>
+        <Name>Beef</Name>
         <Description> Red meat from cattle</Description>
         <Size> 3 Kg</Size>
-        <Price>16</Price>
-        <Category>Protein, Meat</Category>
+        <Price>16.00</Price>
+        <Categories>
+            <Category>Protein</Category>
+            <Category>Meat</Category>
+        </Categories>
     </Food>
     <Food>
-        <Name> Peas </Name>
+        <Name>Peas</Name>
         <Description>Green legumes enriched with Protein</Description>
         <Size> 300g</Size>
-        <Price>6</Price>
-        <Category>Protein, Grains, Vegan</Category>
+        <Price>6.00</Price>
+        <Categories>
+            <Category>Protein</Category>
+            <Category>Grains</Category>
+            <Category>Vegan</Category>
+        </Categories>
     </Food>
     <Food>
-        <Name> Eggs </Name>
+        <Name>Eggs</Name>
         <Description>Cage free chicken eggs</Description>
         <Size> A dozen per tray</Size>
         <Price>2.99</Price>
-        <Category>Protein, Gluten Free</Category>
+        <Categories>
+            <Category>Protein</Category>
+            <Category>Gluten-free</Category>
+        </Categories>
     </Food>
     <Food>
-        <Name> Salmon </Name>
+        <Name>Salmon</Name>
         <Description>Pinkish fish rich in flavor</Description>
         <Size> 2 Kg</Size>
-        <Price>30</Price>
-        <Category>Protein, Meat</Category>
+        <Price>30.00</Price>
+        <Categories>
+            <Category>Protein</Category>
+            <Category>Meat</Category>
+        </Categories>
     </Food>
     <Food>
-        <Name> Oranges </Name>
+        <Name>Oranges</Name>
         <Description>Citrus, juicy and sweet fruit</Description>
         <Size> 150g </Size>
-        <Price>5/kg</Price>
-        <Category>Vitamins, Vegan, Fruits</Category>
+        <Price>5.00/kg</Price>
+        <Categories>
+            <Category>Vitamins</Category>
+            <Category>Fruits</Category>
+            <Category>Vegan</Category>
+        </Categories>
     </Food>
     <Food>
-        <Name> Kale </Name>
+        <Name>Kale</Name>
         <Description>Green leaf vegetable rich in vitamins</Description>
         <Size> 1 bundle </Size>
-        <Price>1/bundle</Price>
-        <Category>Vitamins, Vegetable, Vegan </Category>
+        <Price>1.00/bundle</Price>
+        <Categories>
+            <Category>Vitamins</Category>
+            <Category>Vegetable</Category>
+            <Category>Vegan</Category>
+        </Categories>
     </Food>
     <Food>
-        <Name> Cabbage </Name>
+        <Name>Cabbage</Name>
         <Description>Green round crunchy vegetable rich in vitamins</Description>
         <Size> 800g </Size>
-        <Price>3</Price>
-        <Category>Vitamins, Vegetable, Vegan </Category>
+        <Price>3.00</Price>
+        <Categories>
+            <Category>Vitamins</Category>
+            <Category>Vegetable</Category>
+            <Category>Vegan</Category>
+        </Categories>
     </Food>
     <Food>
-        <Name> Strawberry </Name>
+        <Name>Strawberry</Name>
         <Description>Red juicy sweet berry fruit</Description>
         <Size> 400g</Size>
-        <Price>6</Price>
-        <Category>Fruits, Vitamins, Vegan</Category>
+        <Price>6.00</Price>
+        <Categories>
+            <Category>Vitamins</Category>
+            <Category>Furits</Category>
+            <Category>Vegan</Category>
+        </Categories>
     </Food>
-        <Food>
-        <Name> Brocolli </Name>
-        <Description>Green vegetable with tree like appearence</Description>
-        <Size> 200g</Size>
-        <Price>10</Price>
-        <Category>Fruits, Vitamins, Vegan</Category>
-    </Food> 
+    <Food>
+        <Name>Broccoli</Name>
+        <Description>Small green tree shaped crunchy vegetable</Description>
+        <Size> 400g </Size>
+        <Price>6.49</Price>
+        <Categories>
+            <Category>Vitamins</Category>
+            <Category>Vegetable</Category>
+            <Category>Vegan</Category>
+        </Categories>
+    </Food>
 </FoodItems>
